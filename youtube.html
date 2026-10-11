@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>youtube.com clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+
+            <!-- Put position absolute inside position relative -->
+
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="create-icon-container">
+                <img class="upload-icon" src="icons/create.png">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="notifications-count">3</div>
+            </div>
+            <img class="current-user-picture" src="icons/profile.jpg">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <div>Home</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/shorts.png">
+            <div>Shorts</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/account.png">
+            <div>Account</div>
+        </div>
+
+    </nav>
+
+
+    </main>
+
+
+    <div class="video-grid">
+
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.avif">
+
+                <div class="video-time">14:20</div>
+            </div>
+
+            <div class="video-info-grid">
+
+                <div class="channel-picture">
+                    <img class="profile-picture" src="Channels/sheandhim.jpg">
+                </div>
+
+                <div class="video-info">
+
+                    <p class="video-title">
+                        She & Him - I Thought I Saw Your Face Today
+                    </p>
+
+                    <p class="video-author">
+                        SheandHimOfficial
+                    </p>
+
+                    <p class="video-stats">
+                        56M views · 4 months ago
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- VIDEO 2 -->
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-2.avif">
+
+                <div class="video-time">8:22</div>
+            </div>
+
+            <div class="video-info-grid">
+
+                <div class="channel-picture">
+                    <img class="profile-picture" src="Channels/marques.jpg">
+                </div>
+
+                <div class="video-info">
+
+                    <p class="video-title">
+                        Talkin Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+
+                    <p class="video-stats">
+                        3.4M views · 6 months ago
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- VIDEO 3 -->
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-3.avif">
+
+                <div class="video-time">22:09</div>
+            </div>
+
+            <div class="video-info-grid">
+
+                <div class="channel-picture">
+                    <img class="profile-picture" src="Channels/SuperSimpleDev.jpg">
+                </div>
+
+                <div class="video-info">
+
+                    <p class="video-title">
+                        HTML & CSS Full Course - Beginner to Pro
+                    </p>
+
+                    <p class="video-author">
+                        SuperSimpleDev
+                    </p>
+
+                    <p class="video-stats">
+                        18M views · 4 years ago
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- VIDEO 4 -->
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-4.avif">
+
+                <div class="video-time">10:13</div>
+            </div>
+
+            <div class="video-info-grid">
+
+                <div class="channel-picture">
+                    <img class="profile-picture" src="Channels/Netflix Malaysia.jpg">
+                </div>
+
+                <div class="video-info">
+
+                    <p class="video-title">
+                        Dhurandhar The Revenge | Netflix
+                    </p>
+
+                    <p class="video-author">
+                        Netflix Malaysia
+                    </p>
+
+                    <p class="video-stats">
+                        98M views · 4 months ago
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- VIDEO 5 -->
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-5.avif">
+
+                <div class="video-time">14:55</div>
+            </div>
+
+            <div class="video-info-grid">
+
+                <div class="channel-picture">
+                    <img class="profile-picture" src="Channels/Munna Bhai Tech.jpg">
+                </div>
+
+                <div class="video-info">
+
+                    <p class="video-title">
+                        Ultimate Laptop Buying Guide 2026 🔥
+                    </p>
+
+                    <p class="video-author">
+                        Munna Bhai Tech
+                    </p>
+
+                    <p class="video-stats">
+                        202K views · 4 weeks ago
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- VIDEO 6 -->
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-6.avif">
+
+                <div class="video-time">11:40</div>
+            </div>
+
+            <div class="video-info-grid">
+
+                <div class="channel-picture">
+                    <img class="profile-picture" src="Channels/Adelorex Extra.jpg">
+                </div>
+
+                <div class="video-info">
+
+                    <p class="video-title">
+                        10 Underrated Anime Masterpieces
+                    </p>
+
+                    <p class="video-author">
+                        Adelorex Extra
+                    </p>
+
+                    <p class="video-stats">
+                        5.6K views · 5 months ago
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

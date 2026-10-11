@@ -1,0 +1,159 @@
+ P {
+     font-family: Arial;
+     margin: 0;
+ }
+
+ /*12-e Question*/
+ .container {
+
+     margin-top: 40px;
+     height: auto;
+     width: 500px;
+     border-width: 1px;
+     display: flex;
+     flex-direction: column;
+     font-family: Arial;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+     margin-bottom: 40px;
+
+ }
+
+
+ .item {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 83px;
+     padding: 20px;
+     border-bottom: 1px solid black;
+     box-sizing: border-box;
+ }
+
+ .text {
+     font-size: 25px;
+
+ }
+
+ .badge {
+
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     padding-top: 3px;
+     padding-bottom: 3px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 20px;
+     background-color: rgb(49, 109, 245);
+     cursor: pointer;
+
+ }
+
+
+ /*12-f Question*/
+
+ .body {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     align-items: center;
+     background-color: rgb(120, 82, 178);
+     padding: 12px;
+     margin-bottom: 40px;
+
+
+ }
+
+ .home {
+     font-size: 22px;
+     margin-right: 80px;
+     font-weight: bold;
+     color: white;
+     padding-left: 10px;
+     font-family: Arial;
+ }
+
+ .search {
+
+     height: 28px;
+     width: 500px;
+     border-radius: 15px;
+     border: none;
+     padding-left: 13px;
+     margin-right: 45px;
+
+
+
+ }
+
+ .button {
+     background-color: rgb(120, 82, 178);
+     color: white;
+     font-size: 15px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: white;
+     border-radius: 2px;
+     padding: 10px 17px;
+     margin-left: 25px;
+     cursor: pointer;
+ }
+
+ /*12-g Question*/
+
+ p {
+
+     margin: 0;
+ }
+
+ .row {
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     /*it is most imp to male all items in center*/
+     font-family: Arial;
+     padding: 15px;
+     margin-left: 100px;
+     width: 500px;
+     height: 80px;
+ }
+
+
+ .profile {
+     height: 70px;
+     width: 70px;
+     border-radius: 35px;
+     object-fit: cover;
+
+ }
+
+ .info {
+     flex: 1;
+     /*takeover all the left space */
+     margin-left: 17px;
+ }
+
+ .name {
+     font-weight: bold;
+     margin-bottom: 5px;
+ }
+
+ .type,
+ .status {
+     color: gray;
+     margin-top: 0;
+     margin-bottom: 5px;
+ }
+
+ .follow {
+     background-color: rgb(29, 155, 240);
+     color: white;
+     border: none;
+     border-radius: 7px;
+     padding: 10px 15px;
+     /*it means 10px top-bottom & 15px left-right */
+     font-weight: bold;
+     font-size: 20px;
+     cursor: pointer;
+ }

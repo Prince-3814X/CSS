@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Position Absolute</title>
+
+</head>
+<style>
+.body {
+    height: 9000px; 
+} 
+
+.close {
+    background-color: black; 
+    font-size: 15px;
+    color: white; 
+    height: 45px; 
+    width: 45px; 
+    border-radius: 35px;
+    top: -17px;
+  left: -15px;
+    position: absolute; 
+    z-index: 1; 
+
+      display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+.box {
+    background-color: grey; 
+    height: 180px; 
+    width: 320px; 
+    bottom: 20px; 
+    right: 20px;
+    position: fixed; 
+
+}
+
+</style>
+
+<body>
+
+
+<div class= "box"> 
+<div class= "close"> X </div>
+</div>
+
+
+   
+</body>
+
+
+</html>

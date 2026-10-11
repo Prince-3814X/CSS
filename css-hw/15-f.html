@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shirts</title>
+
+</head>
+<style>
+    .body {
+        height: 3000px;
+        font-family: Arial;
+        margin: 0;
+    }
+
+
+    .box {
+
+        position: relative;
+        /*box ke andar wala element ab iske according move krega*/
+        display: inline-block;
+
+    }
+
+    .shirt {
+
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+
+
+    }
+
+    .discount {
+        background-color: black;
+        color: white;
+        top: 10px;
+        right: 0px;
+        position: absolute;
+        z-index: 1;
+        font-size: 15px;
+        padding: 8px 12px;
+
+    }
+
+    .fade {
+        background-color: rgba(255, 255, 255, 0.8);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+
+
+    }
+
+    .cart {
+        display: flex;
+        background-color: white;
+        padding: 10px 15px;
+        margin-right: 20px;
+
+
+
+    }
+</style>
+
+<body>
+
+    <div class="box">
+        <image class="shirt" src="images/shirt.png">
+            <div class="discount">20% OFF</div>
+            <div class="fade">
+                <button class="cart">Add to Cart</button>
+            </div>
+
+
+    </div>
+
+
+
+</body>
+
+
+</html>

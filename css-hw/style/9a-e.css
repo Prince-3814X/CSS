@@ -1,0 +1,134 @@
+ .square {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            margin-right: 50px;
+            display: inline-block;
+
+        }
+
+        .circle {
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            background-color: green;
+
+
+        }
+
+        .feedback {
+            height: 100px;
+            width: 400px;
+            border-style: solid;
+            border-color: black;
+            border-width: 0.5px;
+            margin-bottom: 8px;
+            display: block;
+
+        }
+
+        .text {
+            font-family: Arial;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-bottom: 0px;
+        }
+
+        .click,
+        .no {
+
+            margin-left: 21px;
+            margin-top: 2px;
+            background-color: rgba(128, 128, 128, 0.105);
+            border-width: 0.5px;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+
+        .no {
+            margin-left: 5px;
+        }
+
+
+        .card {
+            background-color: black;
+            height: 120px;
+            width: 400px;
+            border: none;
+            display: block;
+            border: solid;
+            border-radius: 5px;
+            margin-bottom: 0px;
+
+        }
+
+        .title {
+            padding-top: 0px;
+            padding-left: 10px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+            font-family: Arial;
+        }
+
+        .content {
+            color: rgba(255, 255, 255, 0.686);
+            font-size: 14px;
+            padding-left: 10px;
+            padding-top: 0px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+
+        }
+
+        .wrap {
+            height: 90px;
+            width: 500px;
+            margin-top: 20px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .channel {
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            object-position: center;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 8px;
+            border-radius: 150px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+
+        .text {
+            margin-top: 25px;
+            font-size: 17px;
+            border: none;
+            height: 30px;
+            width: 300px;
+            vertical-align: middle;
+            padding-left: 10px;
+        }
+
+        .tweet {
+
+            font-size: 13px;
+            font-weight: bold;
+            height: 34px;
+            width: 80px;
+            border: none;
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            margin-left: 10px;
+            vertical-align: middle;
+            cursor: pointer;
+        }

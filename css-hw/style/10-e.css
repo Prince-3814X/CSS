@@ -1,0 +1,83 @@
+.cards {
+    height: 305px;
+    width: 194px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+
+}
+
+.name {
+
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    padding-left: 4px;
+
+}
+
+
+/*we need to draw a horizantal layout in which i can put both friends and profile*/
+
+
+.row {
+
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+
+.profile {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    vertical-align: middle;
+    object-fit: cover;
+    margin-right: 4px;
+
+}
+
+.friends {
+    display: inline-block;
+    font-size: 14px;
+    color: grey;
+    margin: 0px;
+
+}
+
+.add {
+    display: inline-block;
+    height: 30px;
+    width: 88px;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 4px;
+    cursor: pointer;
+    transition: all 0.15s;
+
+}
+
+.add:hover {
+    background-color: rgb(0, 0, 180);
+}
+
+
+.add:active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 darkblue;
+}

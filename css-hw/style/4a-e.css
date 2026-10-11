@@ -1,0 +1,149 @@
+        .uber-button {
+
+            background-color: black;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            transition: opacity 0.15s;
+        }
+
+        .uber-button:hover {
+            opacity: 0.8;
+        }
+
+        .amazon-button {
+
+            background-color: rgb(255, 216, 20);
+            color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 80px;
+            padding-right: 80px;
+            border-radius: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .amazon-button:hover {
+            background-color: rgb(236, 236, 7);
+        }
+
+
+
+        .github-button {
+
+            font-weight: bold;
+            background-color: rgb(46, 164, 79);
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-left: 20px;
+            transition: box-shadow 0.15s;
+        }
+
+
+
+        .github-button:hover {
+            box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+
+        }
+
+
+        .bootstrap-button {
+
+            font-weight: bold;
+            background-color: rgb(121, 82, 179);
+            color: white;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 5px;
+            border-radius: 3px;
+            border: none;
+            cursor: pointer;
+            margin-left: 50px;
+            margin-right: 10px;
+        }
+
+        .bootstrap-button:hover {
+            background-color: rgb(0, 0, 116);
+
+
+        }
+
+        .download-button {
+
+            font-weight: bold;
+            background-color: white;
+            color: grey;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 17px;
+            padding-right: 17px;
+            cursor: pointer;
+            margin-left: 0;
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+            border-radius: 5px;
+
+        }
+
+        .download-button:hover {
+            background-color: rgb(161, 156, 156);
+            color: white;
+
+
+        }
+
+        .linkedln-button {
+
+            font-weight: bold;
+            background-color: darkblue;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 25px;
+            border-width: 0;
+            cursor: pointer;
+        }
+
+        .linkedln-button:hover {
+            background-color: rgb(17, 17, 210);
+
+        }
+
+        .save-button {
+
+            font-weight: bold;
+            background-color: rgb(255, 255, 255);
+            color: rgb(66, 66, 223);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(0, 0, 192);
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .save-button:hover {
+            background-color: rgb(108, 193, 222);
+        }

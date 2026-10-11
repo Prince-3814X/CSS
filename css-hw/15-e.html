@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shirts</title>
+
+</head>
+<style>
+    .body {
+        height: 3000px;
+        font-family: Arial;
+        margin: 0;
+    }
+
+
+    .box {
+   
+        position: relative;
+        /*box ke andar wala element ab iske according move krega*/
+        display: inline-block;
+
+    }
+
+    .shirt {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        display: block;
+
+    }
+
+    .discount {
+        background-color: black;
+        color: white;
+        top: 10px;
+        right: 0px;
+        position: absolute;
+        z-index: 1;
+        font-size: 15px;
+        padding: 8px 12px;
+
+    }
+</style>
+
+<body>
+
+    <div class="box">
+        <image class="shirt" src="images/shirt.png">
+            <div class="discount">20% OFF</div>
+
+    </div>
+
+
+
+</body>
+
+
+</html>
